@@ -5,7 +5,6 @@ from typing import List, Dict
 
 import numpy as np
 import torch
-from pytorch_lightning.metrics import RMSE, MSE, AUROC, AveragePrecision, Accuracy, MAE
 from sklearn.metrics import r2_score
 from torch import nn
 from torch.utils.data import DataLoader

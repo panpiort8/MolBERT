@@ -5,7 +5,6 @@ from argparse import ArgumentParser, Namespace
 
 import torch
 from pytorch_lightning import Trainer, seed_everything
-from pytorch_lightning.callbacks import LearningRateLogger
 from pytorch_lightning.callbacks import ModelCheckpoint
 
 from molbert.apps.args import get_default_parser
